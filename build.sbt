@@ -11,5 +11,5 @@ lazy val root = project
     scalafmtOnCompile := true,
 
     libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test,
-    libraryDependencies += "com.microsoft.playwright" % "playwright" % "1.22.0"
+    libraryDependencies += "com.microsoft.playwright" % "playwright" % "1.40.0"
   )
