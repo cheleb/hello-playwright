@@ -7,6 +7,6 @@ lazy val root = project
     version := "0.1.0-SNAPSHOT",
     scalaVersion := scala3Version,
     scalafmtOnCompile := true,
-    libraryDependencies += "org.scalameta" %% "munit" % "1.2.1" % Test,
+    libraryDependencies += "org.scalameta" %% "munit" % "1.2.2" % Test,
     libraryDependencies += "com.microsoft.playwright" % "playwright" % "1.57.0"
   )
